@@ -3614,4 +3614,19 @@ div.panel {
     -o-transition: all 0.2s ease;
     transition: all 0.2s ease; } }
 
+.video-container {
+  width: 100%;
+  max-width: inherit; /* Defina a largura máxima que desejar */
+  aspect-ratio: 16 / 9; /* Mantém a proporção automaticamente */
+}
+
+.video-container iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+	padding-top: 35px;
+	padding-bottom: 35px;
+	
+}
+
 /*# sourceMappingURL=style.css.map */
